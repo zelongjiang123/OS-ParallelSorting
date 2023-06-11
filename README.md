@@ -1,7 +1,7 @@
 This is a project from CS537 (Intro to Operating System).
 
 Project Overview:
-Your parallel sort (`psort`) will take three command-line arguments.
+Parallel sort (`psort`) will take three command-line arguments.
 
 input: The input file to read records for sort
 
@@ -13,4 +13,5 @@ prompt> ./psort input output 4
 
 The input file will consist of records; within each record is a key. The key is the first four bytes of the record. The records are fixed-size, and are each 100 bytes (which includes the key). A successful sort will read all the records into memory from the input file, sort them by key, and then write out the “key, value records” to output file. The exact implementation of the parallel sort operation is left to you, the only constraint we impose is that your code should be a parallel algorithm.
 
-psort.c is written by me (Zelong Jiang) and my partner Dipaksi Attraya.
+psort.c was written by me (Zelong Jiang) and my partner Dipaksi Attraya.
+Performance Grpah.jpg was made by my partner Dipaksi Attraya.
